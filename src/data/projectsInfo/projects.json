@@ -1,0 +1,57 @@
+{
+  "projects": [
+    {
+      "logo": [
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/cisdeals-logo-durck.svg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/cisdeals-logo-light.svg"
+      ],
+      "title": "CisDeals",
+      "description": "Application for searching and posting jobs and services for the Russian-speaking population in Europe",
+      "link": "http://test.server533906.nazwa.pl/",
+      "additional_photos": [
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/1cd-photo-pc.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/2photo_2023-10-13_14-40-47 (4).jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/3photo_2023-10-13_14-40-47 (5).jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/4photo_2023-10-13_14-40-47 (3).jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/5photo_2023-10-13_14-40-47 (2).jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/6photo_2023-10-13_14-40-47.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/7photo_2023-10-13_14-40-46 (2).jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/8photo_2023-10-13_14-40-46.jpg"
+      ]
+    },
+    {
+      "logo": [
+        "http://09build.server533906.nazwa.pl/projectsImg/houseSearchBot/housing-search-bot-logo.svg",
+        "http://09build.server533906.nazwa.pl/projectsImg/houseSearchBot/housing-search-bot-logo.svg"
+      ],
+      "title": "Home-Hunt",
+      "description": "Telegram bot for searching apartments in Poland with diverse search categories",
+      "link": "https://t.me/PolandHousingSearchBot",
+      "additional_photos": [
+        "http://09build.server533906.nazwa.pl/projectsImg/houseSearchBot/1photo_2023-10-13_14-26-04.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/houseSearchBot/2photo_2023-10-13_14-26-04 (2).jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/houseSearchBot/3photo_2023-10-13_14-26-05.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/houseSearchBot/4photo_2023-10-13_14-26-05 (2).jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/houseSearchBot/5photo_2023-10-13_14-26-05 (3).jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/houseSearchBot/6photo_2023-10-13_14-26-06.jpg"
+      ]
+    },
+    {
+      "logo": [
+        "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/radio-online-logo-durck.svg",
+        "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/radio-online-logo-light.svg"
+      ],
+      "title": "Radio-Online",
+      "description": "An application that contains radio stations from different countries and genres, providing the opportunity to immerse yourself in the world of music",
+      "link": "https://radio-online.me/",
+      "additional_photos": [
+        "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/1image18.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/2photo_2023-10-13_15-12-04.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/3image20.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/4image21.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/5image22.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/6image23.png"
+      ]
+    }
+  ]
+}

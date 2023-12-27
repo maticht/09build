@@ -1,0 +1,26 @@
+.privacy-policy-block {
+    width: 100%;
+    max-width: 1452px;
+    border: 1px solid #D3D3D3;
+    border-top: none;
+    border-bottom: none;
+    margin: 0 auto;
+    height: auto;
+    padding: 15px 20px 25px;
+    box-sizing: border-box;
+}
+
+.privacy-policy-mail{
+    font-size: 20px;
+    margin: 0;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(180deg, #939CDE 4.27%, #5B67C1 88.43%);
+    font-weight: 400;
+}
+@media (max-width: 1200px) {
+    .privacy-policy-block{
+        max-width: 100%;
+        border: none;
+    }
+}

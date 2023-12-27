@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: "Malgun Gothic";
+  background-color: #5B67C1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: thin;
+  scrollbar-color: #5B67C1 #F2F2F2;
+  zoom: 80%;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #3b3b3b;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#5B67C1, #939CDE);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #5B67C1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
