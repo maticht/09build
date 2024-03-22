@@ -228,7 +228,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .title-logo {
   color: #2D2D2D;
-  font-family: "Arial Black";
   font-size: 83px;
   font-style: normal;
   margin: 65px 0 25px 20px;
@@ -1121,7 +1120,6 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .title-logo{
     color: #2D2D2D;
-    font-family: "Arial Black";
     font-size: 80px;
     font-style: normal;
     margin: 65px 0 25px 20px;
