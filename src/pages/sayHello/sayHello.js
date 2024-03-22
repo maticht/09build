@@ -17,7 +17,7 @@ function handleFormSubmit(event, navigate) {
     data.append('Связь', $('[name="phone"]', form).val());
 
     $.ajax({
-        url: 'http://server533906.nazwa.pl/09build/ajax.php',
+        url: 'https://nashedelo.pl/ajax.php',
         type: 'POST',
         data: data,
         cache: false,

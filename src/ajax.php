@@ -2,6 +2,7 @@
 header("Access-Control-Allow-Origin: http://localhost:3001");
 header('Access-Control-Allow-Origin: http://localhost:3000');
 header('Access-Control-Allow-Origin: http://09build.server533906.nazwa.pl');
+header('Access-Control-Allow-Origin: https://09build.vercel.app/');
 header('Access-Control-Allow-Methods: GET, POST');
 header('Access-Control-Allow-Headers: Content-Type');
 $tg_bot_token = "6314031501:AAFIarwnzgs9QqL00lX3vpcLqTJ2spPnb-8";
