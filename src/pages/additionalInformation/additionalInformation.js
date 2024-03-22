@@ -116,126 +116,33 @@ function AdditionalInformation() {
             backgroundColor: selectedTheme.primaryBackground,
             borderColor: selectedTheme.primaryLine
         }}>
-            <SimpleHeader/>
-            <div className='how-it-works-contact' style={{
-                backgroundColor: selectedTheme.primaryBackground,
-                borderColor: selectedTheme.primaryLine
-            }}>
-                <div className='additional-hello-block-info' style={{
+            <div>
+                <SimpleHeader/>
+                <div className='how-it-works-contact' style={{
                     backgroundColor: selectedTheme.primaryBackground,
                     borderColor: selectedTheme.primaryLine
                 }}>
-                    <p className="block-title" style={{
-                        color: selectedTheme.primaryTitle,
-                    }}>{selectedLanguage.additionalInformationTitle}</p>
-                    <p className="prev-text" style={{
-                        color: selectedTheme.mainText,
-                    }}>{selectedLanguage.additionalInformationText}</p>
-                </div>
-                <form className="telegram-form" onSubmit={handleForm} style={{
-                    backgroundColor: selectedTheme.primaryBackground,
-                    borderColor: selectedTheme.primaryLine
-                }}>
-                    <div className='telegram-form-block' style={{
+                    <div className='additional-hello-block-info' style={{
                         backgroundColor: selectedTheme.primaryBackground,
                         borderColor: selectedTheme.primaryLine
                     }}>
-                        <div className='input-block'>
-                            <div className='dropdown-menu-input' onClick={toggleMenuType} style={{
-                                backgroundColor: selectedTheme.primaryBackground,
-                                color: selectedTheme.mainText,
-                                borderColor: selectedTheme.primaryLine
-                            }}>
-                                <div className='menu-btn-content'>
-                                    <p style={{
-                                        color: selectedTheme.mainText,
-                                    }}>{selectedSiteType}</p>
-                                    <img
-                                        className="arrow-img"
-                                        style={{transform: `rotate(${rotationType}deg)`}}
-                                        src={arrow}
-                                        alt="arrow"
-                                    />
-                                </div>
-                            </div>
-                            <div className={`dropdown-input-menu ${isOpenType ? 'open' : ''}`} style={{
-                                backgroundColor: selectedTheme.primaryBackground,
-                                borderColor: selectedTheme.primaryLine
-                            }}>
-                                <div>
-                                    {selectedLanguage.siteType
-                                        .filter((type) => type !== selectedSiteType)
-                                        .map((type) => (
-                                            <p
-                                                style={{
-                                                    color: selectedTheme.mainText,
-                                                }}
-                                                className='input-name'
-                                                value={type}
-                                                onClick={() => {
-                                                    setSelectedSiteType(type);
-                                                    setRotationType(rotationType + 180);
-                                                    setIsOpenType(!isOpenType);
-                                                }}>
-                                                {type}
-                                            </p>
-                                        ))}
-                                </div>
-                            </div>
-                            <div className='dropdown-menu-input' onClick={toggleMenuBudget} style={{
-                                backgroundColor: selectedTheme.primaryBackground,
-                                color: selectedTheme.mainText,
-                                borderColor: selectedTheme.primaryLine
-                            }}>
-                                <div className='menu-btn-content'>
-                                    <p style={{
-                                        color: selectedTheme.mainText,
-                                    }}>{selectedSiteBudget}</p>
-                                    <img
-                                        className="arrow-img"
-                                        style={{transform: `rotate(${rotationBudget}deg)`}}
-                                        src={arrow}
-                                        alt="arrow"
-                                    />
-                                </div>
-                            </div>
-                            <div className={`dropdown-input-menu-budget ${isOpenBudget ? 'open' : ''}`} style={{
-                                backgroundColor: selectedTheme.primaryBackground,
-                                borderColor: selectedTheme.primaryLine
-                            }}>
-                                {selectedLanguage.siteBudget
-                                    .filter((budget) => budget !== selectedSiteBudget)
-                                    .map((budget) => (
-                                        <p
-                                            style={{
-                                                color: selectedTheme.mainText,
-                                            }}
-                                            className='input-name'
-                                            value={budget}
-                                            onClick={() => {
-                                                setSelectedSiteBudget(budget);
-                                                setRotationBudget(rotationBudget + 180);
-                                                setIsOpenBudget(!isOpenBudget);
-                                            }}>
-                                            {budget}
-                                        </p>
-                                    ))}
-                            </div>
-                            <textarea
-                                style={{
-                                    color: selectedTheme.mainText,
-                                    backgroundColor: selectedTheme.primaryBackground,
-                                    borderColor: selectedTheme.primaryLine
-                                }}
-                                className="telegram-textarea-input"
-                                placeholder={selectedLanguage.additionalInformation}
-                                name="additionally"
-                            >
-                                </textarea>
-                        </div>
-                        <div className='hello-btn-block'>
-                            <div className='right-contact-block'>
-                                <div className='dropdown-menu-input deadline' onClick={toggleMenuDeadline} style={{
+                        <p className="block-title" style={{
+                            color: selectedTheme.primaryTitle,
+                        }}>{selectedLanguage.additionalInformationTitle}</p>
+                        <p className="prev-text" style={{
+                            color: selectedTheme.mainText,
+                        }}>{selectedLanguage.additionalInformationText}</p>
+                    </div>
+                    <form className="telegram-form" onSubmit={handleForm} style={{
+                        backgroundColor: selectedTheme.primaryBackground,
+                        borderColor: selectedTheme.primaryLine
+                    }}>
+                        <div className='telegram-form-block' style={{
+                            backgroundColor: selectedTheme.primaryBackground,
+                            borderColor: selectedTheme.primaryLine
+                        }}>
+                            <div className='input-block'>
+                                <div className='dropdown-menu-input' onClick={toggleMenuType} style={{
                                     backgroundColor: selectedTheme.primaryBackground,
                                     color: selectedTheme.mainText,
                                     borderColor: selectedTheme.primaryLine
@@ -243,73 +150,167 @@ function AdditionalInformation() {
                                     <div className='menu-btn-content'>
                                         <p style={{
                                             color: selectedTheme.mainText,
-                                        }}>{selectedSiteDeadline}</p>
+                                        }}>{selectedSiteType}</p>
                                         <img
                                             className="arrow-img"
-                                            style={{transform: `rotate(${rotationDeadline}deg)`}}
+                                            style={{transform: `rotate(${rotationType}deg)`}}
                                             src={arrow}
                                             alt="arrow"
                                         />
                                     </div>
                                 </div>
-                                <div className={`dropdown-input-menu-deadline ${isOpenDeadline ? 'open' : ''}`}
-                                     style={{
-                                         backgroundColor: selectedTheme.primaryBackground,
-                                         borderColor: selectedTheme.primaryLine
-                                     }}>
-                                    {selectedLanguage.siteDeadline
-                                        .filter((deadline) => deadline !== selectedSiteDeadline)
-                                        .map((deadline) => (
+                                <div className={`dropdown-input-menu ${isOpenType ? 'open' : ''}`} style={{
+                                    backgroundColor: selectedTheme.primaryBackground,
+                                    borderColor: selectedTheme.primaryLine
+                                }}>
+                                    <div>
+                                        {selectedLanguage.siteType
+                                            .filter((type) => type !== selectedSiteType)
+                                            .map((type) => (
+                                                <p
+                                                    style={{
+                                                        color: selectedTheme.mainText,
+                                                    }}
+                                                    className='input-name'
+                                                    value={type}
+                                                    onClick={() => {
+                                                        setSelectedSiteType(type);
+                                                        setRotationType(rotationType + 180);
+                                                        setIsOpenType(!isOpenType);
+                                                    }}>
+                                                    {type}
+                                                </p>
+                                            ))}
+                                    </div>
+                                </div>
+                                <div className='dropdown-menu-input' onClick={toggleMenuBudget} style={{
+                                    backgroundColor: selectedTheme.primaryBackground,
+                                    color: selectedTheme.mainText,
+                                    borderColor: selectedTheme.primaryLine
+                                }}>
+                                    <div className='menu-btn-content'>
+                                        <p style={{
+                                            color: selectedTheme.mainText,
+                                        }}>{selectedSiteBudget}</p>
+                                        <img
+                                            className="arrow-img"
+                                            style={{transform: `rotate(${rotationBudget}deg)`}}
+                                            src={arrow}
+                                            alt="arrow"
+                                        />
+                                    </div>
+                                </div>
+                                <div className={`dropdown-input-menu-budget ${isOpenBudget ? 'open' : ''}`} style={{
+                                    backgroundColor: selectedTheme.primaryBackground,
+                                    borderColor: selectedTheme.primaryLine
+                                }}>
+                                    {selectedLanguage.siteBudget
+                                        .filter((budget) => budget !== selectedSiteBudget)
+                                        .map((budget) => (
                                             <p
                                                 style={{
                                                     color: selectedTheme.mainText,
                                                 }}
                                                 className='input-name'
-                                                value={deadline}
+                                                value={budget}
                                                 onClick={() => {
-                                                    setSelectedSiteDeadline(deadline);
-                                                    setRotationDeadline(rotationDeadline + 180);
-                                                    setIsOpenDeadline(!isOpenDeadline);
+                                                    setSelectedSiteBudget(budget);
+                                                    setRotationBudget(rotationBudget + 180);
+                                                    setIsOpenBudget(!isOpenBudget);
                                                 }}>
-                                                {deadline}
+                                                {budget}
                                             </p>
                                         ))}
                                 </div>
-                                <input
-                                    className="telegram-input-right"
-                                    type="text"
-                                    name="businessType"
-                                    placeholder={selectedLanguage.businessArea}
-                                    autoComplete="off"
-                                    style={{
-                                        color: selectedTheme.mainText,
-                                        backgroundColor: selectedTheme.primaryBackground,
-                                        borderColor: selectedTheme.primaryLine
-                                    }}
-                                />
-                                <input className="telegram-file-input" type="file" name="file" style={{
-                                    color: selectedTheme.mainText,
-                                    borderColor: selectedTheme.primaryLine
-                                }}/>
                                 <textarea
                                     style={{
                                         color: selectedTheme.mainText,
                                         backgroundColor: selectedTheme.primaryBackground,
                                         borderColor: selectedTheme.primaryLine
                                     }}
-                                    className="telegram-textarea-input-mobile"
+                                    className="telegram-textarea-input"
                                     placeholder={selectedLanguage.additionalInformation}
                                     name="additionally"
                                 >
                                 </textarea>
-                                <button type="submit" className='discuss-contact-btn'>
-                                    <p className='contact-btn-text'> {selectedLanguage.ConsultationBtnTitle}</p>
-                                </button>
+                            </div>
+                            <div className='hello-btn-block'>
+                                <div className='right-contact-block'>
+                                    <div className='dropdown-menu-input deadline' onClick={toggleMenuDeadline} style={{
+                                        backgroundColor: selectedTheme.primaryBackground,
+                                        color: selectedTheme.mainText,
+                                        borderColor: selectedTheme.primaryLine
+                                    }}>
+                                        <div className='menu-btn-content'>
+                                            <p style={{
+                                                color: selectedTheme.mainText,
+                                            }}>{selectedSiteDeadline}</p>
+                                            <img
+                                                className="arrow-img"
+                                                style={{transform: `rotate(${rotationDeadline}deg)`}}
+                                                src={arrow}
+                                                alt="arrow"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className={`dropdown-input-menu-deadline ${isOpenDeadline ? 'open' : ''}`}
+                                         style={{
+                                             backgroundColor: selectedTheme.primaryBackground,
+                                             borderColor: selectedTheme.primaryLine
+                                         }}>
+                                        {selectedLanguage.siteDeadline
+                                            .filter((deadline) => deadline !== selectedSiteDeadline)
+                                            .map((deadline) => (
+                                                <p
+                                                    style={{
+                                                        color: selectedTheme.mainText,
+                                                    }}
+                                                    className='input-name'
+                                                    value={deadline}
+                                                    onClick={() => {
+                                                        setSelectedSiteDeadline(deadline);
+                                                        setRotationDeadline(rotationDeadline + 180);
+                                                        setIsOpenDeadline(!isOpenDeadline);
+                                                    }}>
+                                                    {deadline}
+                                                </p>
+                                            ))}
+                                    </div>
+                                    <input
+                                        className="telegram-input-right"
+                                        type="text"
+                                        name="businessType"
+                                        placeholder={selectedLanguage.businessArea}
+                                        autoComplete="off"
+                                        style={{
+                                            color: selectedTheme.mainText,
+                                            backgroundColor: selectedTheme.primaryBackground,
+                                            borderColor: selectedTheme.primaryLine
+                                        }}
+                                    />
+                                    <input className="telegram-file-input" type="file" name="file" style={{
+                                        color: selectedTheme.mainText,
+                                        borderColor: selectedTheme.primaryLine
+                                    }}/>
+                                    <textarea
+                                        style={{
+                                            color: selectedTheme.mainText,
+                                            backgroundColor: selectedTheme.primaryBackground,
+                                            borderColor: selectedTheme.primaryLine
+                                        }}
+                                        className="telegram-textarea-input-mobile"
+                                        placeholder={selectedLanguage.additionalInformation}
+                                        name="additionally"
+                                    >
+                                </textarea>
+                                    <button type="submit" className='discuss-contact-btn'>
+                                        <p className='contact-btn-text'> {selectedLanguage.ConsultationBtnTitle}</p>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </form>
-
+                    </form>
+                </div>
             </div>
             <Footer/>
         </div>

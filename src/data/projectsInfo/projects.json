@@ -9,14 +9,17 @@
       "description": "Application for searching and posting jobs and services for the Russian-speaking population in Europe",
       "link": "http://test.server533906.nazwa.pl/",
       "additional_photos": [
-        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/1cd-photo-pc.png",
-        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/2photo_2023-10-13_14-40-47 (4).jpg",
-        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/3photo_2023-10-13_14-40-47 (5).jpg",
-        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/4photo_2023-10-13_14-40-47 (3).jpg",
-        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/5photo_2023-10-13_14-40-47 (2).jpg",
-        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/6photo_2023-10-13_14-40-47.jpg",
-        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/7photo_2023-10-13_14-40-46 (2).jpg",
-        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/8photo_2023-10-13_14-40-46.jpg"
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/image_2024-01-30_10-07-13.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/image_2024-01-30_10-07-59.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/image_2024-01-30_10-08-18.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/Screenshot_20240130_101006_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/Screenshot_20240130_101011_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/Screenshot_20240130_101032_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/Screenshot_20240130_101134_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/Screenshot_20240130_101154_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/Screenshot_20240130_101206_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/Screenshot_20240130_101212_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/cisdials/Screenshot_20240130_101230_Chrome.jpg"
       ]
     },
     {
@@ -51,6 +54,53 @@
         "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/4image21.png",
         "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/5image22.png",
         "http://09build.server533906.nazwa.pl/projectsImg/radioOnline/6image23.png"
+      ]
+    },
+    {
+      "logo": [
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/taro-09-logo-durck.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/taro-09-logo-light.png"
+      ],
+      "title": "09.Taro",
+      "description": "Explore card meanings, diverse spreads, and draw your Card of the Day for personalized insights. Whether you're a beginner or a seasoned practitioner, our platform offers a quick dive into the mystical world of Tarot, combining ancient wisdom with modern convenience. Start your journey to self-discovery and spiritual insight today!",
+      "link": "http://taro.server533906.nazwa.pl/",
+      "additional_photos": [
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/image_2024-01-30_10-38-58.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/image_2024-01-30_10-39-29.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/image_2024-01-30_10-39-41.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/image_2024-01-30_10-39-58.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/image_2024-01-30_10-40-18.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/Screenshot_20240130_104141_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/Screenshot_20240130_104151_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/Screenshot_20240130_104201_Chrome.jpg",
+        "http://09build.server533906.nazwa.pl/projectsImg/taro/Screenshot_20240130_104212_Chrome.jpg"
+      ]
+    },
+    {
+      "logo": [
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/mari-deniz-logo-durck.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/mari-deniz-logo-light.png"
+      ],
+      "title": "MariDeniz",
+      "description": "For administrators, enjoy seamless control over orders, real-time statistics, and the ability to effortlessly update the visual appeal of the main page. At our store, we blend the latest fashion trends with personalized choices, providing a platform that caters to both the fashion-forward and those seeking a distinctive touch.",
+      "link": "https://web-store-dc-flame.vercel.app/",
+      "additional_photos": [
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-21-56.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-22-15.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-27-05.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-27-30.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-27-51.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-28-36.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-29-35.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-30-10.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-31-25.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-33-01.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-33-34.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-33-57.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-34-24.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-34-39.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-35-41.png",
+        "http://09build.server533906.nazwa.pl/projectsImg/mariDeniz/image_2024-01-30_11-36-27.png"
       ]
     }
   ]
